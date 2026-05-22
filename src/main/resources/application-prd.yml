@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://kodama.proxy.rlwy.net:56836/railway
+    username: postgres
+    password: eEbKObuTpBGyhsyhyzmxjGiayeijGzhm
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate

@@ -1,0 +1,9 @@
+package com.jackson.service;
+
+import com.jackson.domain.model.User;
+
+public interface UserService {
+    User findById(Long id);
+
+    User create(User userToCreate);
+}
