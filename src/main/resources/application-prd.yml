@@ -1,8 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://kodama.proxy.rlwy.net:56836/railway
-    username: postgres
-    password: eEbKObuTpBGyhsyhyzmxjGiayeijGzhm
+    url: jdbc:${DATABASE_URL:postgresql://kodama.proxy.rlwy.net:56836/railway}
   jpa:
     open-in-view: false
     hibernate:
